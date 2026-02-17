@@ -1,7 +1,9 @@
 [workspace]
 resolver = "2"
 members = [
-    "httpie","scrape_url"
+    "httpie",
+    "scrape_url",
+    "thumbor"
 ]
 
 [workspace.dependencies]
