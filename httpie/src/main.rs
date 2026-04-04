@@ -147,7 +147,7 @@ fn print_status(resp: &Response) {
     //        println!("Bar: {}", self);
     //    }
     // }
-    // 
+    //
     // impl Baz for str {
     //    fn baz(&self) {
     //        println!("Baz: {}", self);

@@ -1,6 +1,11 @@
 use image::ImageFormat;
 use std::{
-    env, fs::File, hash::{DefaultHasher, Hash, Hasher}, io::Read, num::NonZero, sync::Arc
+    env,
+    fs::File,
+    hash::{DefaultHasher, Hash, Hasher},
+    io::Read,
+    num::NonZero,
+    sync::Arc,
 };
 use tokio::sync::Mutex;
 

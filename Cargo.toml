@@ -2,7 +2,7 @@
 resolver = "2"
 members = [
     "httpie",
-    "scrape_url",
+    "scrape_url", "syntax",
     "thumbor"
 ]
 
