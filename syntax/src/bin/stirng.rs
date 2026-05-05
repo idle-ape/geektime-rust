@@ -5,7 +5,7 @@ fn main() {
     let s = "hello world".to_string();
     // &str 是 String 的切片
     let slice1 = &s[..5]; // 可以对字符串切片
-    // 也可以是 &str 的切片
+                          // 也可以是 &str 的切片
     let slice2 = &slice1[1..3]; // 可以对切片再切片
     println!("{} {}", slice1, slice2); // 打印 hello el
 }
