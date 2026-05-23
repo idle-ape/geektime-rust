@@ -37,7 +37,7 @@ impl Write for BufBuilder {
 fn main() {
     let mut buf = BufBuilder::new();
     buf.write_all(b"Hello world,").unwrap();
-    buf.write(b" By Rust!").unwrap();
+    let _ = buf.write(b" By Rust!").unwrap();
     println!("{:?}", buf);
 }
 

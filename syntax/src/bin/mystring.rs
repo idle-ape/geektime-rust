@@ -103,10 +103,10 @@ fn main() {
     println!(
         "s1: {}({} bytes, {} chars), s2: {}({} bytes, {} chars)",
         s1,
-        s1.as_bytes().len(),
+        s1.len(),
         s1.chars().count(),
         s2,
-        s2.as_bytes().len(),
+        s2.len(),
         s2.chars().count()
     );
 
