@@ -3091,8 +3091,13 @@ dependencies = [
 name = "syntax"
 version = "0.1.0"
 dependencies = [
+ "lazy_static",
+ "libc",
  "rand 0.10.0",
  "regex",
+ "serde",
+ "serde_json",
+ "url",
 ]
 
 [[package]]

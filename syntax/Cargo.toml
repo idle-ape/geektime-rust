@@ -6,3 +6,8 @@ edition = "2024"
 [dependencies]
 rand = "0.10"
 regex = "1.5"
+libc = "0.2"
+url = {workspace = true}
+serde = {workspace = true}
+serde_json.workspace = true
+lazy_static = {workspace = true}

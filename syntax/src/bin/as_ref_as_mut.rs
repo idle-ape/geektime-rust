@@ -21,17 +21,17 @@ use std::net::{IpAddr, Ipv4Addr, Ipv6Addr};
 /// }
 ///
 /// 如果转换过程中可能会出错，可以使用 TryFrom<T> / TryInto<T>
-/// 
-/// 
-/// 
+///
+///
+///
 /// pub trait AsRef<T> Where T: ?Sized {
 ///     fn as_ref(&self) -> &T;
 /// }
-/// 
+///
 /// pub trait AsMut<T> Where T: ?Sized {
 ///     fn as_mut(&self) -> &T;
 /// }
-/// 
+///
 /// AsMut<T> 除了使用可变引用生成可变引用外，其它都和 AsRef<T> 一样
 
 fn print(v: impl Into<IpAddr>) {
